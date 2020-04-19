@@ -672,7 +672,9 @@ input[type='checkbox'] {
 	color: #333;
 	text-decoration: none;
 }
-
+.title-logo{
+	display: none !important;
+}
 .navbar-custom .dropdown-item:hover {
 	background-color: #f7fafd;
 }
@@ -1526,6 +1528,9 @@ a:hover.back-to-top {
 	.header .btn-solid-lg {
 		margin-bottom: 0;
 		margin-left: 0;
+	}
+	.title-logo{
+		display: block !important;
 	}
 	/* end of header */
 
