@@ -40,6 +40,7 @@
         >
           <a
             href="https://play.google.com/store/apps/details?id=org.banderablanca"
+            target="_blank"
           >
             <img
               src="~/assets/img/Play Store.svg"
