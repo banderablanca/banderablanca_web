@@ -10,29 +10,36 @@
       <!--Left Col-->
       <div
         class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start
-					overflow-y-hidden"
+					overflow-y-hidden "
       >
         <h1
-          class="my-4 text-3xl md:text-5xl text-gray-700 font-bold
+          class="my-4 text-3xl md:text-5xl text-gray-800 font-bold
 						leading-tight text-center md:text-left slide-in-bottom-h1"
         >
           Es tiempo de ayudarnos
         </h1>
         <p
-          class="leading-normal text-base md:text-xl mb-8 text-center
+          class="leading-normal text-base md:text-xl mb-2 text-center
 						md:text-left slide-in-bottom-subtitle"
         >
-          Encuentra hogares que necesitan apoyo en un solo mapa. Alza una
-          bandera si necesitas ayuda, otras personas voluntarias podrán verte en
-          el mapa. ¿Quieres hacer feliz a un hogar? Localiza una bandera cerca a
+          Encuentra hogares vulnerables en un solo mapa.
+        </p>
+        <p class="leading-normal text-base md:text-xl mb-2 text-center
+						md:text-left slide-in-bottom-subtitle">
+           Alza una
+          bandera si necesitas ayuda.
+          </p>
+        <p  class="leading-normal text-base md:text-xl mb-2 text-center
+						md:text-left slide-in-bottom-subtitle">
+          ¿Quieres hacer feliz a un hogar? Localiza una bandera cerca a
           tu zona y ayúdala.
         </p>
 
         <p
-          class="text-red-400 font-bold pb-8 lg:pb-6 text-center md:text-left
+          class="text-red-400 font-bold pb-2 lg:pb-6 text-center md:text-left
 						fade-in"
         >
-          Descargar Bandera blanca:
+          Descargar Bandera blanca
         </p>
         <div
           class="flex w-full justify-center md:justify-start pb-24 lg:pb-0
@@ -48,7 +55,7 @@
             />
           </a>
           <div
-            class=" flex-wrap items-center  text-center justify-center lg:px-8"
+            class=" flex-wrap items-center  text-center justify-center lg:px-8 pl-4"
           >
             <img
               src="~/assets/img/App Store.svg"
@@ -67,74 +74,7 @@
         />
       </div>
     </div>
-    <section
-      class="my-8 font-sans container m-auto lg:text-left sm:items-center min-h-screen bg-transparent"
-    >
-      <div
-        class="w-full lg:w-2/3 mx-auto flex flex-col justify-center items-start p-8 items-center lg:items-start text-center"
-      >
-        <h1 class="my-4 font-bold text-3xl md:text-5xl text-gray-700 w-full">
-          Nuestra motivación
-        </h1>
-        <p class="leading-normal mb-4 text-gray-700">
-          Recientemente hemos visto una creciente interacción en las redes
-          sociales de hogares con bandera blanca. Las redes sociales no son una
-          herramienta pensada para esta situación ya que es fácil de perder un
-          post y con ello la oportunidad de ayudar a los más necesitados,
-          Bandera Blanca es una aplicación que centraliza los hogares
-          vulnerables en un solo mapa.
-        </p>
-      </div>
-      <div class="w-full mx-auto">
-        <img
-          src="~/assets/img/description-1-app.png"
-          alt=""
-          class="p-8 hidden lg:block"
-        />
-        <img
-          src="~/assets/img/description-1-mobile.png"
-          alt=""
-          class="p-8 block lg:hidden"
-        />
-      </div>
-    </section>
-    <section class="bg-gray-200 ">
-      <div
-        class="my-8 pt-8 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center text-gray-700 min-h-screen"
-      >
-        <div
-          class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start"
-        >
-          <h1 class="my-4 font-bold text-3xl md:text-5xl  w-full">
-            Registrar una bandera
-          </h1>
-          <p class="leading-normal mb-4">
-            Si necesitas ayuda o ves un hogar que necesita apoyo, registra una
-            bandera en el mapa. Personas voluntarias podrán localizarla.
-          </p>
-          <ul class="list-inside ">
-            <li class="py-2 flex">
-              - Toma una foto para generar confianza al voluntario.
-            </li>
-            <li class="py-2 flex">
-              - Localiza el hogar en el mapa, es importante la ubicación exacta.
-            </li>
-            <li class="py-2 flex">
-              - Agrega una breve descripción para que el voluntario pueda saber
-              de tus necesidades.
-            </li>
-          </ul>
-        </div>
-        <div class="w-full lg:w-1/2">
-          <img
-            src="~/assets/img/description-2-app.png"
-            alt=""
-            class="p-4 lg:px-16"
-          />
-        </div>
-      </div>
-    </section>
-    <section>
+    <section class="bg-gray-200">
       <div
         class="w-full lg:w-1/2 mx-auto flex flex-col justify-center items-start p-8 items-center lg:items-start text-center"
       >
@@ -214,7 +154,44 @@
         </div>
       </div>
     </section>
-    <section class="bg-gray-200 ">
+    <section>
+      <div
+        class="my-8 pt-8 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center text-gray-700 min-h-screen"
+      >
+        <div
+          class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start"
+        >
+          <h1 class="my-4 font-bold text-3xl md:text-5xl  w-full">
+            Registrar una bandera
+          </h1>
+          <p class="leading-normal mb-4">
+            Si necesitas ayuda o ves un hogar que necesita apoyo, registra una
+            bandera en el mapa. Personas voluntarias podrán localizarla.
+          </p>
+          <ul class="list-inside ">
+            <li class="py-2 flex">
+              - Toma una foto para generar confianza al voluntario.
+            </li>
+            <li class="py-2 flex">
+              - Localiza el hogar en el mapa, es importante la ubicación exacta.
+            </li>
+            <li class="py-2 flex">
+              - Agrega una breve descripción para que el voluntario pueda saber
+              de tus necesidades.
+            </li>
+          </ul>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <img
+            src="~/assets/img/description-2-app.png"
+            alt=""
+            class="p-4 lg:px-16"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-200">
       <div
         class="font-sans container m-auto lg:text-left sm:items-center  text-gray-700"
       >
@@ -236,6 +213,37 @@
             ayuda y dar la oportunidad de ayudar a otros.
           </p>
         </div>
+      </div>
+    </section>
+        <section
+      class="my-8 font-sans container m-auto lg:text-left sm:items-center min-h-screen bg-transparent"
+    >
+      <div
+        class="w-full lg:w-2/3 mx-auto flex flex-col justify-center items-start p-8 items-center lg:items-start text-center"
+      >
+        <h1 class="my-4 font-bold text-3xl md:text-5xl text-gray-700 w-full">
+          Nuestra motivación
+        </h1>
+        <p class="leading-normal mb-4 text-gray-700">
+          Recientemente hemos visto una creciente interacción en las redes
+          sociales de hogares con bandera blanca. Las redes sociales no son una
+          herramienta pensada para esta situación ya que es fácil de perder un
+          post y con ello la oportunidad de ayudar a los más necesitados,
+          Bandera Blanca es una aplicación que centraliza los hogares
+          vulnerables en un solo mapa.
+        </p>
+      </div>
+      <div class="w-full mx-auto">
+        <img
+          src="~/assets/img/description-1-app.png"
+          alt=""
+          class="p-8 hidden lg:block"
+        />
+        <img
+          src="~/assets/img/description-1-mobile.png"
+          alt=""
+          class="p-8 block lg:hidden"
+        />
       </div>
     </section>
     <!--Footer-->
