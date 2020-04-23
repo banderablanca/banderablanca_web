@@ -82,7 +82,7 @@
           ¿Cómo funciona?
         </h1>
         <p class="leading-normal mb-4 text-gray-700">
-          Las banderas en el mapa son registros por las mismas personas o
+          Las banderas en el mapa son registrados por las mismas personas o
           voluntarios que desean ayudar a los hogares vulnerables.
         </p>
       </div>
@@ -177,7 +177,7 @@
             </li>
             <li class="py-2 flex">
               - Agrega una breve descripción para que el voluntario pueda saber
-              de tus necesidades.
+              las necesidades del hogar a registrar.
             </li>
           </ul>
         </div>
