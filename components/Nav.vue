@@ -14,6 +14,9 @@
           <NuxtLink :to="`/quechua` + $route.fullPath" exact>
             {{ $t('langs.quechua') }}
           </NuxtLink>
+          <NuxtLink :to="`/en` + $route.fullPath" exact>
+            {{ $t('langs.english') }}
+          </NuxtLink>
         </span>
         <span v-else>
           <NuxtLink :to="$route.fullPath.replace(/^\/[^\/]+/, '')" class="Header__Link" active-class="none" exact>
