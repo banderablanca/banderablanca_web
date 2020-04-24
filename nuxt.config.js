@@ -1,6 +1,12 @@
 export default {
   mode: 'universal',
   /*
+   ** Router
+  */
+  router: {
+    middleware: 'i18n'
+  },
+  /*
    ** Headers of the page
    */
   head: {
@@ -38,7 +44,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['~/plugins/i18n.js'],
   /*
    ** Nuxt.js dev-modules
    */
