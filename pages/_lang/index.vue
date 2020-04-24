@@ -66,11 +66,7 @@
 
       <!--Right Col-->
       <div class="w-full xl:w-3/5 py-6 overflow-y-hidden">
-        <!-- <img
-          class="w-5/6 mx-auto lg:mr-0 slide-in-bottom"
-          src="~/assets/img/header-iphone.png"
-        /> -->
-                  <!-- Load Facebook SDK for JavaScript -->
+        <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
@@ -257,6 +253,9 @@ export default Vue.extend({
   components: {
     Nav,
     Footer
+  },
+  head: {
+    meta: [{ property: 'og:image', content: '/header-iphone.png' }]
   }
 })
 </script>
