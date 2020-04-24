@@ -1,0 +1,35 @@
+{
+    "app_name": "Bandera Blanca",
+    "slogan": "Es tiempo de ayudarnos",
+    "langs": {
+        "quechua": "Quechua",
+        "spanish": "Español",
+        "english": "Inglés"
+    },
+    "home": {
+        "description_line1": "Encuentra hogares vulnerables en un solo mapa.",
+        "description_line2": "Alza una bandera si necesitas ayuda.",
+        "description_line3": "¿Quieres hacer feliz a un hogar? Localiza una bandera cerca a tu zona y ayúdala.",
+        "download": "Descargar",
+        "how_work": "¿Cómo funciona?",
+        "how_work_description": "Las banderas en el mapa son registrados por las mismas personas o voluntarios que desean ayudar a los hogares vulnerables.",
+        "find_flag": "Localiza una bandera",
+        "find_flag_description": "Encuentra un hogar vulnerable esperando tu ayuda.",
+        "community": "Comunidad",
+        "community_description": "Si apoyaste un hogar, comenta con una foto, así los voluntarios podrán tener la oportunidad de ayudar a otros hogares.",
+        "comment_flag": "Comenta una bandera",
+        "comment_flag_description": "Puedes comentar en una bandera para comunicarte con el creador.",
+        "raise_flag": "Alzar una bandera",
+        "raise_flag_description": "Si necesitas ayuda o encuentras un hogar vulnerable alza una bandera y dale la oportunidad de recibir ayuda de otros voluntarios.",
+        "register_flag": "Registrar una bandera",
+        "register_flag_description": "Si necesitas ayuda o ves un hogar que necesita apoyo, registra una bandera en el mapa. Personas voluntarias podrán localizarla.",
+        "register_flag_step1": "Toma una foto para generar confianza al voluntario.",
+        "register_flag_step2": "Localiza el hogar en el mapa, es importante la ubicación exacta.",
+        "register_flag_step3": "Agrega una breve descripción para que el voluntario pueda saber las necesidades del hogar a registrar.",
+        "about": "Sobre nosotros",
+        "about_subtitle": "Bandera Blanca es una iniciativa sin fines de lucro.",
+        "about_description": "Somos un grupo de jóvenes entusiastas que vive en carne propia la situación que atraviesa la humanidad sobre la pandemia generada por el COVID-19 y de cómo esto afecta en gran escala la calidad de vida de muchas personas. Nos unimos para crear una herramienta que sirve como canal de localización de hogares vulnerables que necesitan ayuda y dar la oportunidad de ayudar a otros.",
+        "motivation": "Nuestra motivación",
+        "motivation_description": "Recientemente hemos visto una creciente interacción en las redes sociales de hogares con bandera blanca. Las redes sociales no son una herramienta pensada para esta situación ya que es fácil de perder un post y con ello la oportunidad de ayudar a los más necesitados, Bandera Blanca es una aplicación que centraliza los hogares vulnerables en un solo mapa."
+    }
+}

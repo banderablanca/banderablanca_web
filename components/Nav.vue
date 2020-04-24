@@ -6,10 +6,28 @@
         href="#"
       >
         <img src="~/assets/img/logo.png" alt="" class="w-8 pr-2" />
-        <span>Bandera Blanca</span>
+        <span>{{ $t('app_name') }}</span>
       </a>
 
-      <!-- <div class="flex w-1/2 justify-end content-center">
+      <div class="flex w-1/2 justify-end content-center">
+        <span v-if="$i18n.locale !== 'es'" class="px-3">
+          <NuxtLink :to="`/es` + $route.fullPath" exact>
+            {{ $t('langs.spanish') }}
+          </NuxtLink>
+        </span>
+        <span v-if="$i18n.locale !== 'quechua'" class="px-3">
+          <NuxtLink :to="`/quechua` + $route.fullPath" exact>
+            {{ $t('langs.quechua') }}
+          </NuxtLink>
+        </span>
+        <!--
+        <span v-if="$i18n.locale !== 'en'" class="px-3">
+          <NuxtLink  :to="`/en` + $route.fullPath" exact>
+            {{ $t('langs.english') }}
+          </NuxtLink>
+        </span>
+        -->
+        <!--
         <a
           class="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 md:h-auto "
           href="#"
@@ -20,7 +38,8 @@
             Descargar
           </button>
         </a>
-      </div> -->
+        -->
+      </div>
     </div>
   </div>
 </template>
