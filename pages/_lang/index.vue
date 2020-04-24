@@ -37,7 +37,7 @@
           class="text-red-400 font-bold pb-2 lg:pb-6 text-center md:text-left
 						fade-in"
         >
-          {{ $t('home.download') }} {{ $t('app_name') }}
+          {{ $t('home.download') }}
         </p>
         <div
           class="flex w-full justify-center md:justify-start pb-24 lg:pb-0
