@@ -8,15 +8,15 @@
     },
     "home": {
         "description_line1": "Yanapana wasita tairy huk mapallapi.",
-        "description_line2": "Baderata jatarichiy yanapanaykupaq",
+        "description_line2": "Banderata jatarichiy yanapanaykupaq",
         "description_line3": "¿Kusirichiyta wasikunata munanqui? Banderata tarispa may yachasqaypiky yanapay, kay aplicacionta usaspa.",
-        "download": "Uraykachiy yuraq unanchata",
+        "download": "Uraykachiy Bandera Blanca aplicacionta",
         "how_work": "¿Imaynataq funcionan?",
-        "how_work_description": "Banderata mapapi qawaspa tarisun kinkinchik o yanapakuy munaqkuna kay wasikuna yanapanapaq.",
+        "how_work_description": "Banderata mapapi qawaspa tarisun kikinchik o yanapakuy munaqkuna kay wasikuna yanapanapaq.",
         "find_flag": "Bandera tariy",
         "find_flag_description": "Yanapakuna wasikunata tariy.",
         "community": "Comunidad",
-        "community_description": "Necsitaq wasikunata yanapaspaikiqa, fotota apachumy wakin yanapakuq munaqkuna kaqllata ruananpaq.",
+        "community_description": "Necesitaq wasikunata yanapaspaikiqa, fotota apachumy wakin yanapakuq munaqkuna kaqllata ruananpaq.",
         "comment_flag": "Banderamanta rimay",
         "comment_flag_description": "Banderamanta rimaspaiky pim kay ruaqman rimanakuy.",
         "raise_flag": "Banderata qatarichiy",
@@ -26,10 +26,10 @@
         "register_flag_step1": "Fototo Tumay runamasinchik confianawanchikpaq.",
         "register_flag_step2": "Yanapana wasita mapapi tarispa maypin kasqanta churay.",
         "register_flag_step3": "Señalta qina qellqaspaiki churay yanapakuqkuna necesitasqaykita yachananpaq.",
-        "about": "Ñuqykumanta",
-        "about_subtitle": "Yuaq bandera qatarichiy mana imallayku llamkaq.",
+        "about": "Ñuqaykumanta",
+        "about_subtitle": "Yuraq bandera qatarichiy mana imallayku llamkaq.",
         "about_description": "Runamasikim kaniku qamqina kay pandemia COVID 19 afectasqa imaynan kay pandemia afectawachkanchik lliu runamainchikunata. Quñunakuniku yanapayta munaspa kay herramientawan yanapana wasikunata tarispa yanapakunapaq.",
         "motivation": "Munayniyku",
-        "motivation_description": "Redes sociales nisqampin qawaniku kay yuraq banderamanta. Redes sociales nisqanqa manan yanapawankuchu tarinaykupaq yanapana wasikunta , Kay Yuraq bandera APLICATIVO qina huk mapallapi qawasqalla kanqa yanapanapaq wasikuna."
+        "motivation_description": "Redes sociales nisqampin qawaniku kay yuraq banderamanta. Redes sociales nisqanqa manan yanapawankuchu tarinaykupaq yanapana wasikunta, Kay Yuraq bandera APLICATIVO qina huk mapallapi qawasqalla kanqa yanapanapaq wasikuna."
     }
 }
