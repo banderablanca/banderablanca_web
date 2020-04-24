@@ -55,11 +55,15 @@
           <div
             class=" flex-wrap items-center  text-center justify-center lg:px-8 pl-4"
           >
-            <img
-              src="~/assets/img/App Store.svg"
-              class="h-12 pr-4 bounce-top-icons"
-            />
-            <span class="font-bold pr-2 text-gray-500 text-xs">Muy pronto</span>
+            <a
+              href="https://apps.apple.com/us/app/bandera-blanca/id1507865656?l=es&ls=1"
+              target="_blank"
+            >
+              <img
+                src="~/assets/img/App Store.svg"
+                class="h-12 pr-4 bounce-top-icons"
+              />
+            </a>
           </div>
         </div>
       </div>
