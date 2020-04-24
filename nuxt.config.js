@@ -1,5 +1,5 @@
 export default {
-  mode: 'universal',
+  mode: 'spa',
   /*
    ** Router
   */
@@ -29,7 +29,7 @@ export default {
         content:
           'Es una aplicación que muestra la localización de hogares vulnerables en un solo mapa, es una herramienta para los voluntarios y hogares vulnerables'
       },
-      { property: 'og:image', content: '/static/header-iphone.png' }
+      
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },

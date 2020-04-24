@@ -66,10 +66,20 @@
 
       <!--Right Col-->
       <div class="w-full xl:w-3/5 py-6 overflow-y-hidden">
-        <img
-          class="w-5/6 mx-auto lg:mr-0 slide-in-bottom"
-          src="~/assets/img/header-iphone.png"
-        />
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
+        <!-- Your embedded video player code -->
+        <div class="fb-video w-5/6 mx-auto  slide-in-bottom" data-href="https://www.facebook.com/BanderaBlanca.org/videos/234608531079471" data-width="auto" data-show-text="false">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/facebook/videos/10153231379946729/">
+              <a href="https://www.facebook.com/facebook/videos/10153231379946729/">How to Share With Just Friends</a>
+              <p>How to share with just friends.</p>
+              Posted by <a href="https://www.facebook.com/facebook/">Facebook</a> on Friday, December 5, 2014
+            </blockquote>
+          </div>
+        </div>
       </div>
     </div>
     <section class="bg-gray-200">
@@ -243,6 +253,9 @@ export default Vue.extend({
   components: {
     Nav,
     Footer
+  },
+  head: {
+    meta: [{ property: 'og:image', content: '/header-iphone.png' }]
   }
 })
 </script>
