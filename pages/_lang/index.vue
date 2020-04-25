@@ -4,32 +4,36 @@
     <Nav />
     <!--Main-->
     <div
-      class="container  px-6 mx-auto flex flex-wrap flex-col
-				md:flex-row items-center min-h-screen"
+      class="container  px-6 mx-auto flex-wrap flex-col
+			items-center min-h-screen"
     >
       <!--Left Col-->
       <div
-        class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start
+        class="flex flex-col w-full lg:py-8 justify-center lg:items-center
 					overflow-y-hidden "
       >
         <h1
-          class="my-4 text-3xl md:text-5xl text-gray-800 font-bold
+          class="py-4 text-3xl md:text-5xl text-gray-800 font-bold
 						leading-tight text-center md:text-left slide-in-bottom-h1"
         >
           {{ $t('slogan') }}
         </h1>
         <p
-          class="leading-normal text-base md:text-xl mb-2 text-center
+          class="leading-normal text-base md:text-lg  text-center
 						md:text-left slide-in-bottom-subtitle"
         >
           {{ $t('home.description_line1') }}
         </p>
-        <p class="leading-normal text-base md:text-xl mb-2 text-center
-						md:text-left slide-in-bottom-subtitle">
+        <p
+          class="leading-normal text-base md:text-lg  text-center
+						md:text-left slide-in-bottom-subtitle"
+        >
           {{ $t('home.description_line2') }}
         </p>
-        <p  class="leading-normal text-base md:text-xl mb-2 text-center
-						md:text-left slide-in-bottom-subtitle">
+        <p
+          class="leading-normal text-base md:text-lg mb-2 text-center
+						md:text-left slide-in-bottom-subtitle"
+        >
           {{ $t('home.description_line3') }}
         </p>
 
@@ -40,7 +44,7 @@
           {{ $t('home.download') }}
         </p>
         <div
-          class="flex w-full justify-center md:justify-start pb-24 lg:pb-0
+          class="flex w-full justify-center md:justify-center pb-24 lg:pb-0
 						fade-in"
         >
           <a
@@ -55,28 +59,45 @@
           <div
             class=" flex-wrap items-center  text-center justify-center lg:px-8 pl-4"
           >
-            <img
-              src="~/assets/img/App Store.svg"
-              class="h-12 pr-4 bounce-top-icons"
-            />
-            <span class="font-bold pr-2 text-gray-500 text-xs">Muy pronto</span>
+            <a href="https://apps.apple.com/pe/app/bandera-blanca/id1507865656">
+              <img
+                src="~/assets/img/App Store.svg"
+                class="h-12 pr-4 bounce-top-icons"
+              />
+            </a>
           </div>
         </div>
       </div>
 
       <!--Right Col-->
-      <div class="w-full xl:w-3/5 py-6 overflow-y-hidden">
+      <div class="w-full lg:w-3/5 py-6 overflow-y-hidden m-auto">
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
-        <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+        <script
+          async
+          defer
+          src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"
+        ></script>
 
         <!-- Your embedded video player code -->
-        <div class="fb-video w-5/6 mx-auto  slide-in-bottom" data-href="https://www.facebook.com/BanderaBlanca.org/videos/234608531079471" data-width="auto" data-show-text="false">
+        <div
+          class="fb-video w-5/6 mx-auto  slide-in-bottom"
+          data-href="https://www.facebook.com/BanderaBlanca.org/videos/234608531079471"
+          data-width="auto"
+          data-show-text="false"
+        >
           <div class="fb-xfbml-parse-ignore">
-            <blockquote cite="https://www.facebook.com/facebook/videos/10153231379946729/">
-              <a href="https://www.facebook.com/facebook/videos/10153231379946729/">How to Share With Just Friends</a>
+            <blockquote
+              cite="https://www.facebook.com/facebook/videos/10153231379946729/"
+            >
+              <a
+                href="https://www.facebook.com/facebook/videos/10153231379946729/"
+                >How to Share With Just Friends</a
+              >
               <p>How to share with just friends.</p>
-              Posted by <a href="https://www.facebook.com/facebook/">Facebook</a> on Friday, December 5, 2014
+              Posted by
+              <a href="https://www.facebook.com/facebook/">Facebook</a> on
+              Friday, December 5, 2014
             </blockquote>
           </div>
         </div>
@@ -94,7 +115,7 @@
         </p>
       </div>
       <div
-        class="font-sans container  m-auto flex flex-col lg:flex-row justify-center my-8"
+        class="font-sans container  m-auto flex flex-col lg:flex-row justify-center py-8"
       >
         <div
           class="order-2 lg:order-1 p-4  w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 mt-8"
@@ -102,7 +123,7 @@
           <div
             class="w-16 h-16 rounded-full border border-red-400 mb-2 flex items-center justify-center"
           >
-            <img src="~/assets/img/logo.svg" alt="" class="w-full p-5" />
+            <img src="~/assets/img/logo.svg" class="w-full p-5" />
           </div>
           <h2 class="text-black mb-2 font-bold">{{ $t('home.find_flag') }}</h2>
           <p class="text-gray-700 leading-normal mb-8">
@@ -111,7 +132,6 @@
           <div class="w-16 h-16 rounded-full border border-red-400 mb-2">
             <img
               src="~/assets/img/people-arrows-solid.svg"
-              alt=""
               class="w-full p-5"
             />
           </div>
@@ -125,17 +145,13 @@
         <div
           class="order-1 lg:order-2 w-full lg:w-1/2 max-w-sm m-auto mb-6 lg:mb-0"
         >
-          <img src="~/assets/img/features-app.jpg" alt="" class="px-8" />
+          <img src="~/assets/img/features-app.jpg" class="px-8" />
         </div>
         <div
           class="order-last w-full p-4  lg:w-1/4 flex flex-col items-center lg:items-start justify-center text-center lg:text-left mt-8 mr-8"
         >
           <div class="w-16 h-16 rounded-full border border-red-400 mb-2">
-            <img
-              src="~/assets/img/comments-regular.svg"
-              alt=""
-              class="w-full p-5"
-            />
+            <img src="~/assets/img/comments-regular.svg" class="w-full p-5" />
           </div>
           <h2 class="text-black mb-2 font-bold">
             {{ $t('home.comment_flag') }}
@@ -144,11 +160,7 @@
             {{ $t('home.comment_flag_description') }}
           </p>
           <div class="w-16 h-16 rounded-full border border-red-400 mb-2">
-            <img
-              src="~/assets/img/flag-regular.svg"
-              alt=""
-              class="w-full p-5"
-            />
+            <img src="~/assets/img/flag-regular.svg" class="w-full p-5" />
           </div>
           <h2 class="text-black mb-2 font-bold">
             {{ $t('home.raise_flag') }}
@@ -161,7 +173,7 @@
     </section>
     <section>
       <div
-        class="my-8 pt-8 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center text-gray-700 min-h-screen"
+        class="pt-8 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center text-gray-700 min-h-screen"
       >
         <div
           class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start"
@@ -173,23 +185,13 @@
             {{ $t('home.register_flag_description') }}
           </p>
           <ul class="list-inside ">
-            <li class="py-2 flex">
-              - {{ $t('home.register_flag_step1') }}
-            </li>
-            <li class="py-2 flex">
-              - {{ $t('home.register_flag_step2') }}
-            </li>
-            <li class="py-2 flex">
-              - {{ $t('home.register_flag_step3') }}
-            </li>
+            <li class="py-2 flex">- {{ $t('home.register_flag_step1') }}</li>
+            <li class="py-2 flex">- {{ $t('home.register_flag_step2') }}</li>
+            <li class="py-2 flex">- {{ $t('home.register_flag_step3') }}</li>
           </ul>
         </div>
         <div class="w-full lg:w-1/2">
-          <img
-            src="~/assets/img/description-2-app.png"
-            alt=""
-            class="p-4 lg:px-16"
-          />
+          <img src="~/assets/img/description-2-app.png" class="p-4 lg:px-16" />
         </div>
       </div>
     </section>
@@ -210,10 +212,13 @@
           <p class="leading-normal mb-4">
             {{ $t('home.about_description') }}
           </p>
+          <div class="w-full lg:w-3/4 m-auto">
+            <img src="~/assets/img/about.svg" />
+          </div>
         </div>
       </div>
     </section>
-        <section
+    <section
       class="my-8 font-sans container m-auto lg:text-left sm:items-center min-h-screen bg-transparent"
     >
       <div
@@ -229,12 +234,10 @@
       <div class="w-full mx-auto">
         <img
           src="~/assets/img/description-1-app.png"
-          alt=""
           class="p-8 hidden lg:block"
         />
         <img
           src="~/assets/img/description-1-mobile.png"
-          alt=""
           class="p-8 block lg:hidden"
         />
       </div>
@@ -254,8 +257,10 @@ export default Vue.extend({
     Nav,
     Footer
   },
-  head: {
-    meta: [{ property: 'og:image', content: '/header-iphone.png' }]
+  head() {
+    return {
+      meta: [{ property: 'og:image', content: '/header-iphone.png' }]
+    }
   }
 })
 </script>
