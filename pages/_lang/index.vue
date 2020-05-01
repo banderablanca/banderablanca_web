@@ -74,8 +74,7 @@
 
       <!--Right Col-->
       <div class="w-full lg:w-3/5 py-6 overflow-y-hidden m-auto">
-       
-        <iframe class=" w-5/6 mx-auto  slide-in-bottom" height="336" width="560" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBanderaBlanca.org%2Fvideos%2F2550700275182600%2F&show_text=0&width=560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" dataWidth="auto"></iframe>
+        <iframe class=" w-5/6 mx-auto  slide-in-bottom" height="336" width="560" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBanderaBlancaApp%2Fvideos%2F321707522134019%2F&show_text=0&width=560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" dataWidth="auto"></iframe>
       </div>
     </div>
     <section class="bg-gray-200">
