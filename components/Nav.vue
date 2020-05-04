@@ -1,19 +1,19 @@
 <template>
   <div class="w-full container mx-auto p-2 px-6">
     <div class="w-full flex items-center justify-between">
-      <a
+      <nuxt-link
         class="flex items-center text-black no-underline hover:no-underline font-bold text-2xl lg:text-2xl"
-        href="#"
+        to="/"
       >
         <img src="~/assets/img/logo.png" alt="" class="w-8 pr-2" />
         <span>{{ $t('app_name') }}</span>
-      </a>
+      </nuxt-link>
 
       <div class="flex w-1/2 justify-end content-center">
         <a
           class="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 "
           data-tippy-content="#BanderaBlanca.org"
-          href="https://www.facebook.com/BanderaBlanca.org/"
+          href="https://www.facebook.com/BanderaBlancaApp/"
           target="_blank"
         >
           <svg
@@ -26,6 +26,13 @@
             ></path>
           </svg>
         </a>
+        <NuxtLink
+            to="/metricas"
+            class="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 "
+            exact
+          >
+            {{ $t('menu_metrics') }}
+        </NuxtLink>
         <span
           v-if="$i18n.locale === 'es'"
           class="px-3 flex inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"

@@ -4,7 +4,7 @@
       class="w-full py-8 text-sm text-center md:text-left fade-in container mx-auto text-white p-8 lg:flex flex-wrap"
     >
       <div class="lg:pr-8">
-        <p class="pb-2 font-bold">DESCARGAR</p>
+        <p class="pb-2 font-bold">{{ $t('home.download') }}</p>
         <div class=" lg:flex flex-wrap">
           <div class="pb-2 lg:pr-2">
             <a
@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="lg:pr-8">
-        <p class="pb-2 font-bold pt-8 lg:pt-0">INTEGRANTES</p>
+        <!-- <p class="pb-2 font-bold pt-8 lg:pt-0">INTEGRANTES</p>
         <div class=" flex-wrap lg:flex">
           <ul class="lg:pl-4">
             <li class="font-light flex flex-wrap">
@@ -60,7 +60,7 @@
               • Mario André - <span class="font-bold"></span>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="bg-gray-800 p-4 text-center text-white">
