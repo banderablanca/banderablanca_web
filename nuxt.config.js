@@ -65,8 +65,17 @@ export default {
       'performance'
     ],
     config: {
-      development: {
+      // development: {
 
+      // },
+      development: {
+        apiKey: "AIzaSyBMfy-es-6HLfMK4BISj05L78ovSXmJ38I",
+        authDomain: "bandera-blanca-dev.firebaseapp.com",
+        databaseURL: "https://bandera-blanca-dev.firebaseio.com",
+        projectId: "bandera-blanca-dev",
+        storageBucket: "bandera-blanca-dev.appspot.com",
+        messagingSenderId: "711034436278",
+        appId: "1:711034436278:web:dba2cbff152d2a8a610417"
       },
       production: {
 
