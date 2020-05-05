@@ -84,52 +84,49 @@
         <p class="leading-normal mb-4 text-gray-700">{{ $t('home.how_work_description') }}</p>
       </div>
       <div
-        class="font-sans container m-auto flex flex-wrap justify-center py-8 px-2 pt-0 lg:pb-0 lg:w-2/3"
+        class="font-sans container m-auto flex flex-col lg:flex-row justify-center py-8 pt-0 lg:pb-0"
       >
-        <iframe
-          class="lg:w-1/2 w-full pt-4 lg:pt-0"
-          height="336"
-          width="560"
-          src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBanderaBlancaApp%2Fvideos%2F321707522134019%2F&show_text=0&width=560"
-          style="border:none;overflow:hidden"
-          scrolling="no"
-          frameborder="0"
-          allowtransparency="true"
-          allowfullscreen="true"
-          data-width="auto"
-        ></iframe>
-        <div class="p-4 w-full lg:w-1/2 lg:block hidden">
-          <div class="flex flex-wrap items-center justify-center text-center">
-            <div class="w-full lg:w-1/2 flex-col flex items-center p-4 rounded-lg bg-white">
-              <div class="w-16 h-16 rounded-full border border-red-400 shadow-lg mb-2">
-                <img src="~/assets/img/flag-regular.svg" class="w-full p-5" />
-              </div>
-              <h2 class="text-black mb-2 font-bold">{{ $t('home.raise_flag') }}</h2>
-              <!-- <p class="text-gray-700 leading-normal">{{ $t('home.raise_flag_description') }}</p> -->
+        <div
+          class="order-2 lg:order-1 p-4 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 lg:mt-8"
+        >
+          <div class="flex-col flex items-center lg:items-end p-4 lg:mb-4 rounded-lg bg-white">
+            <div
+              class="w-16 h-16 rounded-full border border-red-400 shadow-lg mb-2 flex items-center justify-center"
+            >
+              <img src="~/assets/img/logo.svg" class="w-full p-5" />
             </div>
-            <div class="w-full lg:w-1/2 flex-col flex items-center p-4 rounded-lg bg-white">
-              <div
-                class="w-16 h-16 rounded-full border border-red-400 shadow-lg mb-2 flex items-center justify-center"
-              >
-                <img src="~/assets/img/logo.svg" class="w-full p-5" />
-              </div>
-              <h2 class="text-black mb-2 font-bold">{{ $t('home.find_flag') }}</h2>
-              <!-- <p class="text-gray-700 leading-normal">{{ $t('home.find_flag_description') }}</p> -->
+            <h2 class="text-black mb-2 font-bold">{{ $t('home.find_flag') }}</h2>
+            <p class="text-gray-700 leading-normal">{{ $t('home.find_flag_description') }}</p>
+          </div>
+          <div class="flex-col flex items-center lg:items-end p-4 rounded-lg bg-white">
+            <div class="w-16 h-16 rounded-full border border-red-400 shadow-lg mb-2">
+              <img src="~/assets/img/people-arrows-solid.svg" class="w-full p-5" />
             </div>
-            <div class="w-full lg:w-1/2 flex-col flex items-center p-4 rounded-lg bg-white">
-              <div class="w-16 h-16 rounded-full border border-red-400 shadow-lg mb-2">
-                <img src="~/assets/img/comments-regular.svg" class="w-full p-5" />
-              </div>
-              <h2 class="text-black mb-2 font-bold">{{ $t('home.comment_flag') }}</h2>
-              <!-- <p class="text-gray-700 leading-normal">{{ $t('home.comment_flag_description') }}</p> -->
+            <h2 class="text-black mb-2 font-bold">{{ $t('home.community') }}</h2>
+            <p class="text-gray-700 leading-normal">{{ $t('home.community_description') }}</p>
+          </div>
+        </div>
+        <div
+          class="order-1 lg:order-2 w-full lg:w-1/2 max-w-sm m-auto mb-6 lg:mb-0 lg:block hidden"
+        >
+          <img src="~/assets/img/features-app.jpg" class="px-8" />
+        </div>
+        <div
+          class="order-last w-full p-4 lg:w-1/4 flex flex-col items-center lg:items-start justify-center text-center lg:text-left mt-0 lg:mt-8 mr-8"
+        >
+          <div class="flex-col flex items-center lg:items-start p-4 rounded-lg bg-white lg:mb-4">
+            <div class="w-16 h-16 rounded-full border border-red-400 shadow-lg mb-2">
+              <img src="~/assets/img/comments-regular.svg" class="w-full p-5" />
             </div>
-            <div class="w-full lg:w-1/2 flex-col flex items-center p-4 rounded-lg bg-white">
-              <div class="w-16 h-16 rounded-full border border-red-400 shadow-lg mb-2">
-                <img src="~/assets/img/people-arrows-solid.svg" class="w-full p-5" />
-              </div>
-              <h2 class="text-black mb-2 font-bold">{{ $t('home.community') }}</h2>
-              <!-- <p class="text-gray-700 leading-normal">{{ $t('home.community_description') }}</p> -->
+            <h2 class="text-black mb-2 font-bold">{{ $t('home.comment_flag') }}</h2>
+            <p class="text-gray-700 leading-normal">{{ $t('home.comment_flag_description') }}</p>
+          </div>
+          <div class="flex-col flex items-center lg:items-start p-4 rounded-lg bg-white">
+            <div class="w-16 h-16 rounded-full border border-red-400 shadow-lg mb-2">
+              <img src="~/assets/img/flag-regular.svg" class="w-full p-5" />
             </div>
+            <h2 class="text-black mb-2 font-bold">{{ $t('home.raise_flag') }}</h2>
+            <p class="text-gray-700 leading-normal">{{ $t('home.raise_flag_description') }}</p>
           </div>
         </div>
       </div>
@@ -164,10 +161,10 @@
       </svg>
       <div class="bg-indigo-100">
         <div
-          class="pb-8 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center text-gray-700"
+          class="pb-4 lg:pb-16 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center text-gray-700"
         >
           <div
-            class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start"
+            class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start pt-0"
           >
             <h1 class="my-4 font-bold text-3xl md:text-5xl w-full">{{ $t('home.register_flag') }}</h1>
             <p class="leading-normal mb-4">{{ $t('home.register_flag_description') }}</p>
@@ -178,7 +175,19 @@
             </ul>
           </div>
           <div class="w-full lg:w-1/2">
-            <img src="~/assets/img/description-2-app.png" class="p-4 lg:px-16" />
+            <!-- <img src="~/assets/img/description-2-app.png" class="p-4 lg:px-16" /> -->
+            <iframe
+              class="w-5/6 mx-auto slide-in-bottom pt-8"
+              height="336"
+              width="560"
+              src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBanderaBlancaApp%2Fvideos%2F321707522134019%2F&show_text=0&width=560"
+              style="border:none;overflow:hidden"
+              scrolling="no"
+              frameborder="0"
+              allowtransparency="true"
+              allowfullscreen="true"
+              data-width="auto"
+            ></iframe>
           </div>
         </div>
       </div>
