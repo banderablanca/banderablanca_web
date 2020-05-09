@@ -76,15 +76,16 @@
         </div>
       </div>
     </div>
+    <!-- description -->
     <section class="relative">
       <div
-        class="w-full lg:w-1/2 mx-auto flex flex-col justify-center items-start p-8 items-center lg:items-start text-center lg:pb-8 pb-0"
+        class="w-full lg:w-1/2 mx-auto flex flex-col justify-center items-start p-8 items-center lg:items-start text-center lg:pb-8"
       >
         <h1 class="my-4 font-bold text-3xl md:text-5xl w-full">{{ $t('home.how_work') }}</h1>
         <p class="leading-normal mb-4 text-gray-700">{{ $t('home.how_work_description') }}</p>
       </div>
       <div
-        class="font-sans container m-auto flex flex-col lg:flex-row justify-center py-8 pt-0 lg:pb-0"
+        class="font-sans container m-auto flex flex-col lg:flex-row justify-center py-8 pt-0 lg:pb-16"
       >
         <div
           class="order-2 lg:order-1 p-4 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 lg:mt-8"
@@ -132,8 +133,8 @@
       </div>
     </section>
 
-    <section class="relative">
-      <svg
+    <section class="relative py-5">
+      <!-- <svg
         class="w-full"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -158,10 +159,11 @@
             </g>
           </g>
         </g>
-      </svg>
-      <div class="bg-indigo-100">
+      </svg>-->
+      <div class="relative bg-indigo-100 lg:py-16 py-8">
+        <div class="absolute top-0 w-full h-full bg-fixed bg_map"></div>
         <div
-          class="pb-4 lg:pb-16 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center text-gray-700"
+          class="relative pb-4 lg:pb-16 lg:pt-16 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center text-gray-700"
         >
           <div
             class="w-full lg:w-1/2 flex flex-col justify-center items-start p-8 items-center lg:items-start pt-0"
@@ -207,6 +209,152 @@
         </div>
       </div>
     </section>
+    <section class="bg-indigo-100 py-5 lg:pb-8">
+      <div
+        class="flex flex-wrap my-8 font-sans relative container m-auto sm:items-center lg:mt-8 mt-0"
+      >
+        <h1
+          class="my-4 font-bold text-3xl md:text-5xl text-gray-700 w-full text-center"
+        >Cadena de Solidaridad</h1>
+        <div class="m-auto lg:px-8 px-2">
+          <div class="flex flex-wrap lg:flex-row md:mb-0">
+            <div class="absolute top-0 left-0 opacity-25 pt-2">
+              <svg
+                width="200"
+                height="220"
+                viewBox="0 0 512 358"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <linearGradient
+                    x1="50%"
+                    y1="1.18771115%"
+                    x2="50%"
+                    y2="100%"
+                    id="linearGradient-1"
+                  >
+                    <stop stop-color="#9193FE" offset="0%" />
+                    <stop stop-color="#FFA2B4" offset="100%" />
+                  </linearGradient>
+                </defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  opacity="0.316848028"
+                >
+                  <g id="cita-izquierda" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                    <path
+                      d="M392,358 C325.832,358 272,304.168 272,238 C272,102.852 326.68,13.203 329.007,9.453 L334.874,0 L422.458,0 L415.241,25.455 C408.188,50.335 397,95.288 397,110 C397,113.59 397.107,116.215 397.251,118.118 C427.722,119.429 456.168,132.079 477.626,153.931 C499.792,176.503 512,206.359 512,238 C512,304.168 458.168,358 392,358 Z M357.812,40 C344.836,65.166 312,138.68 312,238 C312,282.112 347.888,318 392,318 C436.112,318 472,282.112 472,238 C472,194.737 436.824,158.858 393.587,158.021 L392.719,158 C375.174,157.904 366.62,148.896 362.531,141.331 C357.94,132.838 357,122.664 357,110 C357,94.041 364.194,62.584 369.941,40 L357.812,40 Z M120,358 C53.832,358 0,304.168 0,238 C0,102.852 54.68,13.203 57.007,9.453 L62.874,0 L150.458,0 L143.241,25.455 C136.188,50.335 125,95.288 125,110 C125,113.59 125.107,116.215 125.251,118.118 C155.722,119.429 184.168,132.079 205.626,153.931 C227.792,176.503 240,206.359 240,238 C240,304.168 186.168,358 120,358 Z M85.812,40 C72.836,65.166 40,138.68 40,238 C40,282.112 75.888,318 120,318 C164.112,318 200,282.112 200,238 C200,194.737 164.824,158.858 121.587,158.021 L120.719,158 C103.174,157.904 94.62,148.896 90.531,141.331 C85.94,132.838 85,122.664 85,110 C85,94.041 92.194,62.584 97.941,40 L85.812,40 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="absolute bottom-0 right-0 opacity-25 lg:-mb-16 lg:-mr-16 mr-0 mb-0">
+              <svg
+                width="200"
+                height="220"
+                viewBox="0 0 512 358"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <linearGradient
+                    x1="50%"
+                    y1="1.18771115%"
+                    x2="50%"
+                    y2="100%"
+                    id="linearGradient-1"
+                  >
+                    <stop stop-color="#9193FE" offset="0%" />
+                    <stop stop-color="#FFA2B4" offset="100%" />
+                  </linearGradient>
+                </defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  opacity="0.316848028"
+                >
+                  <g
+                    id="cita-izquierda"
+                    transform="translate(256.000000, 179.000000) scale(-1, 1) translate(-256.000000, -179.000000) "
+                    fill="url(#linearGradient-1)"
+                    fill-rule="nonzero"
+                  >
+                    <path
+                      d="M392,358 C325.832,358 272,304.168 272,238 C272,102.852 326.68,13.203 329.007,9.453 L334.874,0 L422.458,0 L415.241,25.455 C408.188,50.335 397,95.288 397,110 C397,113.59 397.107,116.215 397.251,118.118 C427.722,119.429 456.168,132.079 477.626,153.931 C499.792,176.503 512,206.359 512,238 C512,304.168 458.168,358 392,358 Z M357.812,40 C344.836,65.166 312,138.68 312,238 C312,282.112 347.888,318 392,318 C436.112,318 472,282.112 472,238 C472,194.737 436.824,158.858 393.587,158.021 L392.719,158 C375.174,157.904 366.62,148.896 362.531,141.331 C357.94,132.838 357,122.664 357,110 C357,94.041 364.194,62.584 369.941,40 L357.812,40 Z M120,358 C53.832,358 0,304.168 0,238 C0,102.852 54.68,13.203 57.007,9.453 L62.874,0 L150.458,0 L143.241,25.455 C136.188,50.335 125,95.288 125,110 C125,113.59 125.107,116.215 125.251,118.118 C155.722,119.429 184.168,132.079 205.626,153.931 C227.792,176.503 240,206.359 240,238 C240,304.168 186.168,358 120,358 Z M85.812,40 C72.836,65.166 40,138.68 40,238 C40,282.112 75.888,318 120,318 C164.112,318 200,282.112 200,238 C200,194.737 164.824,158.858 121.587,158.021 L120.719,158 C103.174,157.904 94.62,148.896 90.531,141.331 C85.94,132.838 85,122.664 85,110 C85,94.041 92.194,62.584 97.941,40 L85.812,40 Z"
+                      id="Shape"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="relative p-4 lg:w-1/2 w-full">
+              <div class="shadow-lg items-center bg-white rounded-lg p-8">
+                <img src="~/assets/img/camara_comercio.jpeg" class="h-10 rounded-full mb-5" />
+                <div>
+                  <p
+                    class="italic text-sm"
+                  >"La Camara de Comercio de Ayacucho, en un esfuerzo conjunto al aplicativo bandera blanca, canalizara la ayuda que fue recolectada y acopiada lo cual se pretende cubrir el 100% de los hogares en condiciones de bandera Blanca."</p>
+                  <p
+                    class="mt-2 text-xs text-indigo-500 text-right"
+                  >- Camara de Comercio de Ayacucho</p>
+                </div>
+              </div>
+            </div>
+            <div class="relative p-4 lg:w-1/2 w-full">
+              <div class="shadow-lg items-center bg-white rounded-lg p-8">
+                <img src="~/assets/img/canal_25.png" class="h-10 rounded-full mb-5" />
+                <div>
+                  <p
+                    class="italic text-sm"
+                  >"La Camara de Comercio de Ayacucho, en un esfuerzo conjunto al aplicativo bandera blanca, canalizara la ayuda que fue recolectada y acopiada lo cual se pretende cubrir el 100% de los hogares en condiciones de bandera Blanca."</p>
+                  <p
+                    class="mt-2 text-xs text-indigo-500 text-right"
+                  >- Camara de Comercio de Ayacucho</p>
+                </div>
+              </div>
+            </div>
+            <div class="relative p-4 lg:w-1/2 w-full">
+              <div class="shadow-lg items-center bg-white rounded-lg p-8">
+                <img src="~/assets/img/pnp.png" class="h-10 rounded-full mb-5" />
+                <div>
+                  <p
+                    class="italic text-sm"
+                  >"La Camara de Comercio de Ayacucho, en un esfuerzo conjunto al aplicativo bandera blanca, canalizara la ayuda que fue recolectada y acopiada lo cual se pretende cubrir el 100% de los hogares en condiciones de bandera Blanca."</p>
+                  <p
+                    class="mt-2 text-xs text-indigo-500 text-right"
+                  >- Camara de Comercio de Ayacucho</p>
+                </div>
+              </div>
+            </div>
+            <div class="relative p-4 lg:w-1/2 w-full">
+              <div class="shadow-lg items-center bg-white rounded-lg p-8">
+                <img src="~/assets/img/comercio_logo.png" class="h-10 rounded-full mb-5" />
+                <div>
+                  <p
+                    class="italic text-sm"
+                  >"La Camara de Comercio de Ayacucho, en un esfuerzo conjunto al aplicativo bandera blanca, canalizara la ayuda que fue recolectada y acopiada lo cual se pretende cubrir el 100% de los hogares en condiciones de bandera Blanca."</p>
+                  <p
+                    class="mt-2 text-xs text-indigo-500 text-right"
+                  >- Camara de Comercio de Ayacucho</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section
       class="my-8 font-sans relative container m-auto lg:text-left sm:items-center min-h-screen bg-transparent lg:mt-8 mt-0"
     >
@@ -223,6 +371,48 @@
         <img src="~/assets/img/description-1-mobile.png" class="p-8 block lg:hidden" />
       </div>
     </section>
+    <div class="shadow-xxl p-4 fixed bottom-0 w-full bg-white">
+      <div class="relative container flex flex-col sm:flex-row m-auto shadow mx-auto">
+        <div class="absolute top-0 right-0">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="far"
+            data-icon="times-circle"
+            class="svg-inline--fa fa-times-circle fa-w-16"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="25"
+            height="25"
+          >
+            <path
+              fill="currentColor"
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm101.8-262.2L295.6 256l62.2 62.2c4.7 4.7 4.7 12.3 0 17l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L256 295.6l-62.2 62.2c-4.7 4.7-12.3 4.7-17 0l-22.6-22.6c-4.7-4.7-4.7-12.3 0-17l62.2-62.2-62.2-62.2c-4.7-4.7-4.7-12.3 0-17l22.6-22.6c4.7-4.7 12.3-4.7 17 0l62.2 62.2 62.2-62.2c4.7-4.7 12.3-4.7 17 0l22.6 22.6c4.7 4.7 4.7 12.3 0 17z"
+            />
+          </svg>
+        </div>
+        <img src="~/assets/img/solidaridad.png" class="h-32 hidden lg:block" />
+        <div
+          class="w-full sm:w-3/4 lg:px-6 px-2 pt-2 lg:pt-6 text-left flex flex-col justify-center"
+        >
+          <h2 class="text-lg capitalize font-bold">Campaña de solidaridad frente al Covid 19</h2>
+          <p
+            class="text-gray-700 mt-2 mb-6"
+          >Amigo empresario y personas de buenna voluntad los invitamos a seguir apoyando a los hogares que menos tienen con víveres y alimentos no perecibles.</p>
+        </div>
+        <div
+          class="w-full sm:w-1/4 flex flex-wrap justify-start sm:justify-center items-center lg:pl-6 pb-6 sm:pl-0 sm:pb-0"
+        >
+          <button
+            class="bg-indigo-400 hover:bg-indigo-500 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide lg:mr-2 lg:w-auto w-full"
+          >ver mapa</button>
+          <button
+            class="bg-indigo-400 hover:bg-indigo-500 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide lg:w-auto w-full lg:mt-0 mt-2"
+          >ver campaña</button>
+        </div>
+      </div>
+    </div>
     <!--Footer-->
     <Footer />
   </div>
@@ -248,9 +438,10 @@ export default Vue.extend({
 })
 </script>
 
-<style>
-.bg_background {
-  background-image: url('~assets/img/bg.svg');
+<style >
+/* .bg_map {
+  background-image: url('~/assets/img/map.svg');
   background-attachment: fixed;
-}
+  background-size: cover;
+} */
 </style>
