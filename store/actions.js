@@ -25,5 +25,8 @@ export default {
             console.error(e)
             return
         }
+    },
+    hideBanner({ commit }) {
+        commit('SET_BANNER', false)
     }
 }

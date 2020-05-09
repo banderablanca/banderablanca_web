@@ -56,7 +56,18 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/firebase'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/firebase', ['nuxt-fontawesome', {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab']
+      }
+    ]
+  }]],
 
   firebase: {
     useOnly: [

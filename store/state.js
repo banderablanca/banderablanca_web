@@ -4,4 +4,5 @@ export default () => ({
     locale: 'es',
     authUser: null,
     flags: [],
+    showBanner: true,
 })

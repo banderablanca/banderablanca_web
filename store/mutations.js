@@ -12,5 +12,8 @@ export default {
     },
     SET_FLAGS: (state, { flags }) => {
         state.flags = flags
+    },
+    SET_BANNER: (state, showBanner) => {
+        state.showBanner = showBanner
     }
 }

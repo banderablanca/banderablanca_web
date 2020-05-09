@@ -301,7 +301,7 @@
             </div>
             <div class="relative p-4 lg:w-1/2 w-full">
               <div class="shadow-lg items-center bg-white rounded-lg p-8">
-                <img src="~/assets/img/camara_comercio.jpeg" class="h-10 rounded-full mb-5" />
+                <img src="~/assets/img/pnp.png" class="h-10 rounded-full mb-5" />
                 <div>
                   <p
                     class="italic text-sm"
@@ -327,7 +327,7 @@
             </div>
             <div class="relative p-4 lg:w-1/2 w-full">
               <div class="shadow-lg items-center bg-white rounded-lg p-8">
-                <img src="~/assets/img/pnp.png" class="h-10 rounded-full mb-5" />
+                <img src="~/assets/img/camara_comercio.jpeg" class="h-10 rounded-full mb-5" />
                 <div>
                   <p
                     class="italic text-sm"
@@ -340,7 +340,7 @@
             </div>
             <div class="relative p-4 lg:w-1/2 w-full">
               <div class="shadow-lg items-center bg-white rounded-lg p-8">
-                <img src="~/assets/img/comercio_logo.png" class="h-10 rounded-full mb-5" />
+                <img src="~/assets/img/ayacucho-ccb.jpeg" class="h-10 rounded-full mb-5" />
                 <div>
                   <p
                     class="italic text-sm"
@@ -371,48 +371,7 @@
         <img src="~/assets/img/description-1-mobile.png" class="p-8 block lg:hidden" />
       </div>
     </section>
-    <div class="shadow-xxl p-4 fixed bottom-0 w-full bg-white">
-      <div class="relative container flex flex-col sm:flex-row m-auto shadow mx-auto">
-        <div class="absolute top-0 right-0">
-          <svg
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="far"
-            data-icon="times-circle"
-            class="svg-inline--fa fa-times-circle fa-w-16"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-            width="25"
-            height="25"
-          >
-            <path
-              fill="currentColor"
-              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm101.8-262.2L295.6 256l62.2 62.2c4.7 4.7 4.7 12.3 0 17l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L256 295.6l-62.2 62.2c-4.7 4.7-12.3 4.7-17 0l-22.6-22.6c-4.7-4.7-4.7-12.3 0-17l62.2-62.2-62.2-62.2c-4.7-4.7-4.7-12.3 0-17l22.6-22.6c4.7-4.7 12.3-4.7 17 0l62.2 62.2 62.2-62.2c4.7-4.7 12.3-4.7 17 0l22.6 22.6c4.7 4.7 4.7 12.3 0 17z"
-            />
-          </svg>
-        </div>
-        <img src="~/assets/img/solidaridad.png" class="h-32 hidden lg:block" />
-        <div
-          class="w-full sm:w-3/4 lg:px-6 px-2 pt-2 lg:pt-6 text-left flex flex-col justify-center"
-        >
-          <h2 class="text-lg capitalize font-bold">Campaña de solidaridad frente al Covid 19</h2>
-          <p
-            class="text-gray-700 mt-2 mb-6"
-          >Amigo empresario y personas de buenna voluntad los invitamos a seguir apoyando a los hogares que menos tienen con víveres y alimentos no perecibles.</p>
-        </div>
-        <div
-          class="w-full sm:w-1/4 flex flex-wrap justify-start sm:justify-center items-center lg:pl-6 pb-6 sm:pl-0 sm:pb-0"
-        >
-          <button
-            class="bg-indigo-400 hover:bg-indigo-500 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide lg:mr-2 lg:w-auto w-full"
-          >ver mapa</button>
-          <button
-            class="bg-indigo-400 hover:bg-indigo-500 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide lg:w-auto w-full lg:mt-0 mt-2"
-          >ver campaña</button>
-        </div>
-      </div>
-    </div>
+    <Banner />
     <!--Footer-->
     <Footer />
   </div>
@@ -423,12 +382,14 @@ import Vue from 'vue'
 import Nav from '~/components/Nav.vue'
 import Footer from '~/components/Footer.vue'
 import Flag from '~/components/Flags.vue'
+import Banner from '~/components/Banner.vue'
 
 export default Vue.extend({
   components: {
     Nav,
     Footer,
     Flag,
+    Banner,
   },
   head() {
     return {
