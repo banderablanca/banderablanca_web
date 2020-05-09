@@ -7,8 +7,9 @@
 module.exports = {
   theme: {
     boxShadow: {
-      lg: ' 0 10px 15px -3px  rgba(209, 223, 255, 0.37), 0 4px 6px -2px  rgba(199, 216, 255, 0.13)',
+      lg: ' 0 10px 15px 3px  rgba(209, 223, 255, 0.37), 0 4px 6px 2px  rgba(199, 216, 255, 0.13)',
       xl: ' 0 10px 55px 5px rgba(137,173,255,.35)',
+      xxl: '0 5px 34px 0 rgba(136, 173, 255, 0.54)',
     },
 
   },
