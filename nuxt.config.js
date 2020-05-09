@@ -56,7 +56,18 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/firebase'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/firebase', ['nuxt-fontawesome', {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab']
+      }
+    ]
+  }]],
 
   firebase: {
     useOnly: [
@@ -94,7 +105,7 @@ export default {
     workbox: {
       // by default the workbox module will not install the service worker in dev environment to avoid conflicts with HMR
       // only set this true for testing and remember to always clear your browser cache in development
-      dev: process.env.NODE_ENV === 'development'
+      dev: process.env.NODE_ENV === 'production'
     }
   },
   /*
