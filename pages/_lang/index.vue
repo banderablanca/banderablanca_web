@@ -1,7 +1,5 @@
 <template>
-  <div class="bg-right bg-cover">
-    <!--Nav-->
-    <Nav />
+  <div>
     <div>
       <div class="overflow-hidden w-full absolute top-0 left-0 z-0">
         <!-- waves -->
@@ -67,7 +65,12 @@
         <h1
           class="font-bold text-center text-white text-2xl lg:text-4xl leading-tight pt-4 pb-4"
         >Últimas banderas alzadas</h1>
-        <Flag />
+        <div class="lg:flex">
+          <div class="w-full lg:w-1/4 p-2" v-for="flag in flags.slice(0, 4)" :key="flag.id">
+            <FlagCard :flag="flag" />
+          </div>
+        </div>
+
         <div class="text-center py-6 lg:py-12">
           <nuxt-link
             to="/banderas"
@@ -372,29 +375,35 @@
       </div>
     </section>
     <Banner />
-    <!--Footer-->
-    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import Nav from '~/components/Nav.vue'
-import Footer from '~/components/Footer.vue'
-import Flag from '~/components/Flags.vue'
+import { mapState, mapGetters } from 'vuex'
 import Banner from '~/components/Banner.vue'
+import FlagCard from '~/components/FlagCard.vue'
 
 export default Vue.extend({
   components: {
-    Nav,
-    Footer,
-    Flag,
     Banner,
+    FlagCard,
   },
   head() {
     return {
       meta: [{ property: 'og:image', content: '/header-iphone.png' }],
     }
+  },
+  computed: {
+    ...mapState({
+      flags: (state: any) => state.flags,
+    }),
+    ...mapGetters({
+      isLoggedIn: 'isLoggedIn',
+    }),
+  },
+  created() {
+    this.$store.dispatch('loadFlags')
   },
 })
 </script>
