@@ -1,8 +1,24 @@
 <template>
-  <div>
+  <div class="bg-right bg-cover">
+    <!--Nav-->
+    <div class="bg-indigo-400">
+      <Nav />
+    </div>
     <nuxt />
+    <Footer />
   </div>
 </template>
+<script lang="ts">
+import Vue from 'vue'
+import Footer from '~/components/Footer.vue'
+import Nav from '~/components/Nav.vue'
+export default Vue.extend({
+  components:{
+    Footer,
+    Nav,
+  }
+})
+</script>
 
 <style>
 html {
