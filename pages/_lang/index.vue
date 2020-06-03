@@ -374,7 +374,7 @@
         <img src="~/assets/img/description-1-mobile.png" class="p-8 block lg:hidden" />
       </div>
     </section>
-    <Banner />
+    <!-- <Banner /> -->
   </div>
 </template>
 
