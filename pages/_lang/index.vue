@@ -137,33 +137,7 @@
     </section>
 
     <section class="relative py-5">
-      <!-- <svg
-        class="w-full"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 0 1920 413"
-        version="1.1"
-      >
-        <g id="Home" transform="translate(0.000000, -586.000000)">
-          <g id="Hero">
-            <g id="Path-2-+-Path-Mask">
-              <g id="Group" transform="translate(-63.000000, 586.000000)">
-                <path
-                  d="M393.986353,104.002115 C611.751741,280.771326 826.750438,333.898292 1038.98244,263.383013 C1357.33045,157.610094 1693.65558,141.445419 1823.74803,198.773589 C1910.47633,236.992368 1975.91374,286.719655 2020.06026,347.955449 L2020.06026,419.610091 L393.986353,386.051642 L393.986353,104.002115 Z"
-                  id="Path-2"
-                  fill="#E0EBFA"
-                />
-                <path
-                  d="M0.833360949,13.6818689 C176.343826,-31.535628 391.146641,43.5405775 645.241805,238.910486 C1026.38455,531.965348 1091.59247,123.418795 1546.50399,205.018226 C1849.77834,259.417847 2001.41552,334.008403 2001.41552,428.789896 L0.833360949,428.789896 L0.833360949,13.6818689 Z"
-                  id="Path"
-                  fill="#ebf4ff"
-                />
-              </g>
-            </g>
-          </g>
-        </g>
-      </svg>-->
-      <div class="relative bg-indigo-100 lg:py-16 py-8">
+      <div class="relative bg-indigo-100 lg:py-4 py-8">
         <div class="absolute top-0 w-full h-full bg-fixed bg_map"></div>
         <div
           class="relative pb-4 lg:pb-16 lg:pt-16 font-sans container m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center text-gray-700"
@@ -180,8 +154,8 @@
             </ul>
           </div>
           <div class="w-full lg:w-1/2">
-            <!-- <img src="~/assets/img/description-2-app.png" class="p-4 lg:px-16" /> -->
-            <iframe
+            <img src="~/assets/img/description-2-app.png" class="p-4 lg:px-16" />
+            <!-- <iframe
               class="w-5/6 mx-auto slide-in-bottom pt-8"
               height="336"
               width="560"
@@ -192,7 +166,7 @@
               allowtransparency="true"
               allowfullscreen="true"
               data-width="auto"
-            ></iframe>
+            ></iframe>-->
           </div>
         </div>
       </div>
