@@ -182,16 +182,14 @@
           <div class="w-full lg:w-1/2">
             <!-- <img src="~/assets/img/description-2-app.png" class="p-4 lg:px-16" /> -->
             <iframe
-              class="w-5/6 mx-auto slide-in-bottom pt-8"
-              height="336"
+              src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBanderaBlancaApp%2Fvideos%2F789624668241190%2F&show_text=0&width=560"
               width="560"
-              src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBanderaBlancaApp%2Fvideos%2F321707522134019%2F&show_text=0&width=560"
+              height="336"
               style="border:none;overflow:hidden"
               scrolling="no"
               frameborder="0"
               allowtransparency="true"
               allowfullscreen="true"
-              data-width="auto"
             ></iframe>
           </div>
         </div>
