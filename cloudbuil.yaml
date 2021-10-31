@@ -1,0 +1,20 @@
+steps:
+- name: 'gcr.io/cloud-builders/npm:node-12.18.3'
+  args: ['install']
+
+- name: 'gcr.io/cloud-builders/npm:node-12.18.3'
+  args: ['run', 'create-env']
+  env:
+    - 'API_KEY=${_API_KEY}'
+    - 'AUTH_DOMAIN=${_AUTH_DOMAIN}'
+    - 'DATABASE_URL=${_DATABASE_URL}'
+    - 'PROJECT_ID=${_PROJECT_ID}'
+    - 'STORAGE_BUCKET=${_STORAGE_BUCKET}'
+    - 'MESSAGING_SENDER_ID=${_MESSAGING_SENDER_ID}'
+    - 'APP_ID=${_APP_ID}'
+
+- name: 'gcr.io/cloud-builders/npm:node-12.18.3'
+  args: ['run', 'generate']
+
+- name: gcr.io/$PROJECT_ID/firebase
+  args: ['deploy', '--project=$PROJECT_ID', '--only=hosting']
