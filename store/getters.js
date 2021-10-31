@@ -1,9 +1,4 @@
 export default {
-    isLoggedIn: (state) => {
-      try {
-        return state.authUser.id !== null
-      } catch {
-        return false
-      }
-    }
+    isLoggedIn: (state) => state.authUser?.id,
+    getLocales: (state) => state.locales,
   }
