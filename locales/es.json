@@ -6,6 +6,7 @@
         "spanish": "Español",
         "english": "Inglés"
     },
+    "menu_metrics": "Métricas",
     "home": {
         "description_line1": "Encuentra hogares vulnerables en un solo mapa.",
         "description_line2": "Alza una bandera si necesitas ayuda.",

@@ -29,7 +29,7 @@ export default {
         content:
           'Es una aplicación que muestra la localización de hogares vulnerables en un solo mapa, es una herramienta para los voluntarios y hogares vulnerables'
       },
-      
+
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
@@ -56,7 +56,58 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/firebase', ['nuxt-fontawesome', {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab']
+      }
+    ]
+  }]],
+
+  firebase: {
+    useOnly: [
+      'auth',
+      'firestore',
+      'performance'
+    ],
+    config: {
+      // development: {
+
+      // },
+      production: {
+
+      }
+    },
+    customEnv: false,
+    onFirebaseHosting: true,
+    services: {
+      auth: {
+        persistence: 'local',
+        initialize: {
+          onAuthStateChangedMutation: "SET_AUTH_USER",
+          onAuthStateChangedAction: null,
+        },
+        ssr: false
+      },
+      firestore: true,
+      messaging: {
+        createServiceWorker: true
+      }
+    }
+
+  },
+  pwa: {
+    workbox: {
+      // by default the workbox module will not install the service worker in dev environment to avoid conflicts with HMR
+      // only set this true for testing and remember to always clear your browser cache in development
+      dev: process.env.NODE_ENV === 'development'
+    }
+  },
   /*
    ** Build configuration
    */
@@ -64,6 +115,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   }
 }
