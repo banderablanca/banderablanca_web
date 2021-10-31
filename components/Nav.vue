@@ -11,6 +11,11 @@
 
       <div class="flex w-1/2 justify-end content-center">
         <NuxtLink
+          to="/nosotros"
+          class="inline-block text-white no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"
+          exact
+        >{{ $t('menu_about') }}</NuxtLink>
+        <NuxtLink
           to="/metricas"
           class="inline-block text-white no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"
           exact
