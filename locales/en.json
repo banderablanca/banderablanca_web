@@ -7,6 +7,7 @@
         "english": "English"
     },
     "menu_metrics": "Metrics",
+    "menu_about": "About us",
     "home": {
         "description_line1": "Find vulnerable homes on a single map.",
         "description_line2": "Raise a flag if you need help.",
