@@ -69,7 +69,6 @@ export default Vue.extend({
   methods: {
     onChangeLocale(event: any) {
       const locale = event.target.value;
-      console.log("locale: ", locale);
       this.$i18n.locale = locale;
       localStorage.setItem("locale", locale);
     },
