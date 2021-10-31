@@ -2,12 +2,6 @@ require('dotenv').config();
 export default {
   mode: 'spa',
   /*
-   ** Router
-  */
-  router: {
-    middleware: 'i18n'
-  },
-  /*
    ** Headers of the page
    */
   head: {
