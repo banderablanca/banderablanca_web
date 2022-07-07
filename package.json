@@ -35,7 +35,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.1.2",
-    "moment": "^2.25.1",
+    "moment": "^2.29.4",
     "nuxt-fontawesome": "^0.4.0",
     "prettier": "^2.0.5"
   }
